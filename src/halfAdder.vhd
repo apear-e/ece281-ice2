@@ -20,9 +20,10 @@
 --|
 --| NAMING CONVENTIONS :
 --|
---|    i_<port name>            = on-chip input port
---|    o_<port name>            = on-chip output port
---|
+--|    i_A                      = on-chip input port A (digital logic)
+--|    i_B                      = on-chip input port B (digital logic)
+--|    o_S                      = on-chip output for half-adder Sum
+--|    o_Cout                   = on-chip output for half-adder Carry
 --+----------------------------------------------------------------------------
 library ieee;
   use ieee.std_logic_1164.all;
